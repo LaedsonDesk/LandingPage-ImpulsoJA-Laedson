@@ -1,0 +1,347 @@
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	background: url("background.avif");
+
+}
+p{
+	color: #FFFFFF;
+}
+
+a{
+	text-decoration:none;
+}
+
+header{
+	background:#000000;
+	position:relative;
+	height: 5rem;
+}
+
+.image-logo{
+	height: 5rem;
+	width: auto;
+	display: inline-block;
+	padding: 0 5px 0 0;
+}
+
+.nomeLogo{
+	position: absolute;
+	height: 5rem;
+	width: auto;
+	left: 40%;
+	top: 1rem;
+	display: inline-block;
+}
+.embarque{
+	position: absolute;
+	left: 90vw;
+	top: 1rem;
+	display: inline-block;
+	background-color: rgb(13, 61, 61);
+	color:rgb(255, 255, 255);
+	height: 3rem;
+	width: 7rem;
+	border-radius: 2rem;
+	cursor: pointer
+}
+
+
+.cosmos{
+	height: 30rem;
+	width: auto;
+	display: block; /* Necessário para o margin funcionar */
+	margin-left: auto; /* aqui */
+	margin-right: auto; /* e aqui */
+	
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+.navegacao a:hover{
+	color: grey;
+	text-decoration: underline;
+
+}
+
+.item-navegacao{
+	display: inline;
+	color: black;
+}
+
+
+
+main{
+	
+	background-size: cover;
+	text-align: center;
+	padding: 30px;
+
+}
+
+.saudacao{
+	font-size: 30px;
+	color: white;
+	padding:10px 0 10px 0;
+}
+.storing{
+	font-size: 20px;
+	color: white;
+	padding: 2rem 0 3rem 0;
+
+}
+
+
+.logoImpulso{
+	width: 70%;
+}
+
+.linguagensProg{
+	width: 60%;
+}
+
+
+
+.texto1{
+	font-size: 1.5rem;
+	width: 70%;
+	display: block; /* Necessário para o margin funcionar */
+	margin-left: auto; /* aqui */
+	margin-right: auto; 
+	margin-bottom: 5rem;
+
+}
+.texto2{
+	margin-top: 1rem;
+	font-size: 1.5rem;
+}
+
+.botao-agendamento{
+	width: 8rem;
+	height:5rem;
+	
+	margin: 0 auto;
+	padding: 20px 0 70px 0;
+
+}
+
+.agendamento{
+	background-color: rgb(13, 61, 61);
+	color:rgb(255, 255, 255);
+	height: 4rem;
+	width: 9rem;
+	border-radius: 2rem;
+	cursor: pointer;
+}
+h3{
+	font-weight: bold;
+	font-size: 3rem;
+	margin-bottom: 1rem;
+
+}
+
+h4{
+	font-size: 1.3rem;
+	width: 60%;	display: block; /* Necessário para o margin funcionar */
+	margin-left: auto; /* aqui */
+	margin-right: auto; 
+}
+
+.text-local{
+	color: #FFFFFF;
+	font-size: 30px;
+}
+
+.produtos {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.produtos li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #cac2c2;
+	border-radius: 10px;
+}
+
+.produtos li:hover {
+	border-color:  rgb(13, 61, 61);
+}
+
+.produtos li:active {
+	border-color: #088C19;	
+}
+
+.produtos li:hover h2 {
+	font-size: 34px;
+}
+
+.produtos h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.imagemCube{
+	height: 100px;
+}
+
+.produto-descricao {
+	font-size: 18px;
+}
+
+.produto-preco {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+
+
+
+.video{
+	margin: 15px 0 0 0;
+}
+
+#formulario h2{
+	color:white;
+	font-weight: bold;
+	font-size: larger;
+	margin-bottom: 1rem;
+	
+}
+.conteudo-beneficios{
+	margin-top: 5rem;
+}
+
+.beneficios {
+	background: #FFFFFF;
+	padding: 20px;
+}
+.itens{
+	height: 2rem;
+	width: auto;
+	border: 1px solid rgb(25, 146, 146);
+	border-radius: 0.5rem;
+	margin-bottom: 2rem;
+	padding: 10px 10px 0 20px;
+}
+
+ul {
+	display: inline-block;
+	vertical-align: top;
+	width: auto;
+	margin-right: 4rem;
+	color: #fff;
+	text-align: left;
+}
+#formulario{
+	display: inline-block;
+	background-color: rgb(13, 61, 61);
+	width: 30%;
+	margin: 0 ;
+	padding: 20px;
+	border-radius: 5px;
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+	font-weight: 300;
+	color: #ffffff;
+	text-align: left;
+}
+
+#cpf, #telefone, #email, #nome{
+	display: block;
+	margin-bottom: 0px;
+	font-weight: 300;
+	color: #0f0404;
+	text-align: center;
+} 
+
+input[type="text"],
+input[type="email"],
+textarea {
+	width: 90%;
+	height: 0.1rem;
+	padding: 10px;
+	margin-bottom: 0px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	font-size: 16px;
+	text-align: left;
+}
+
+input[type="number"],
+input[type="tel"] {
+	width: 50%;
+	height: 0.1rem;
+	padding: 10px;
+	margin-bottom: 0px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	font-size: 16px;
+}
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+
+input[type="submit"] {
+	background-color: #3498db;
+	color: #fff;
+	border: none;
+	border-radius: 3px;
+	padding: 12px 20px;
+	font-size: 18px;
+	cursor: pointer;
+	text-align: center;
+}
+
+input[type="submit"]:hover {
+	background-color: #2980b9;
+	
+}
+
+
+footer{
+	background: #000000;
+	padding: 50px 80px;
+}
+
+.copyright{
+	color: white;
+	text-align: center;
+	font-size: 15px;
+}
+
+@media screen and (min-width: 380px) {
+    .produtos {
+        grid-template-columns: 1fr ;
+		
+    }
+	.copyright{
+		font-size: 10px;
+	}
+}
+
+@media screen and (min-width: 576px) {
+    .produtos {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .produtos  {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
